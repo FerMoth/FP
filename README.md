@@ -22,4 +22,4 @@ _Italica texto_
 
 ***Negrita italica***
 
-![[imagen programación](https://pin.it/2SYOFpQDj)
+![imagen programación](https://pin.it/2SYOFpQDj)
