@@ -13,6 +13,7 @@
 2. dos
 3. tres
 4. cuatro
+
 Pruebas de trabajo de la clase de fundamentos de programación 
 
 **Negritas**
@@ -20,3 +21,5 @@ Pruebas de trabajo de la clase de fundamentos de programación
 _Italica texto_
 
 ***Negrita italica***
+
+![imagen programación] (https://cl.pinterest.com/pin/905364331323614110/)
