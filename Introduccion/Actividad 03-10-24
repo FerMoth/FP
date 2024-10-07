@@ -1,0 +1,30 @@
+// enteros.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+#include <limits>
+#include <iomanip>
+#include <locale>
+using namespace std;
+
+int main() {
+
+//declaración e impreción de strings
+    string texto0 = "Hola mundo";
+        cout << texto0 << endl;
+
+    // Unir dos textos en uno
+        string primertexto = "Hola ";
+        string segundotexto = "Mundo!";
+        string textounido = primertexto + segundotexto;
+        cout << textounido << endl;
+
+        // introducir un valor en una variable de un texto(string) usando teclado
+        string nombre;
+        cout << "Intorducir tu nombre:";
+        cin >> nombre;
+        cout << "Hola " << nombre << "!" << endl;
+
+ 
+    return 0;
+}
