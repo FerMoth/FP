@@ -1,0 +1,77 @@
+// ConsoleApplication1.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+#include <string>
+#include<iomanip>
+#include<algorithm>
+#include<sstream>
+using namespace std;
+
+int main()
+{
+	//Ejercicio 4
+   // introducir una linea completa de texto string
+	// cin.ignore();   //ignora la instruccuón de texto (string) y aplica cuando tiene cin previos 
+	string nombrecompleto;
+	cout << "introduce tu nombre: ";
+	getline(cin, nombrecompleto); // obtiene una linea completa de texto
+	cout << "Tu nombre completo: " << nombrecompleto << endl;
+
+	//Ejercicio 5
+	// de que tamaño es un string
+	cout << "la longitud del texto es: " << nombrecompleto.length() << endl; //al poner un punto es una función implicita, la función y los corchetes son universales
+
+	//Ejercicio 6
+	//como acceder un caracter especifico de un texto (string)
+	// los [] es la posición de cualquiera de los caracteres 
+	cout << "El primer caracter de nombre completo es: " << nombrecompleto[0] << endl;
+
+	//Ejercicio7
+	//cambiar un caracter esepecifico en un texto (string)
+	string cambio = "Hola";
+	cambio[0] = 'H';
+	cout << cambio << endl;
+
+
+	//Ejercicio 8
+	//Convertir un string a MAYUSCULAS
+	string textoMinusculas = "texto a convertir";
+	transform(textoMinusculas.begin(), textoMinusculas.end(), textoMinusculas.begin(), ::toupper);
+	cout << "Texto en Mayusculas: " << textoMinusculas << endl;
+
+	//Ejercicio 9
+	//Convertir un string a minusculas
+	string textoMayusculas = "TEXTO A CONVERTIR";
+	transform(textoMayusculas.begin(), textoMayusculas.end(), textoMayusculas.begin(), ::tolower);
+	cout << "texto en Minusculas: " << textoMayusculas << endl;
+
+	//Ejercicio 10
+	//insertar un texto dentro de otro 
+	string textoPrincipal = "Ferda ";
+	textoPrincipal.insert(3, "nan");
+	cout << textoPrincipal << endl;
+
+
+	//Ejercicio 11
+	//Revertir un texto
+	string textoRevertir = "Hola Mundo!";
+	reverse(textoRevertir.begin(), textoRevertir.end());
+	cout << textoRevertir << endl;
+
+	//Ejercicio 12
+	//convertir un numero a string
+	int n1 = 123;
+	string numeroAtexto = to_string(n1);
+	cout << "Numero con string: " << numeroAtexto << endl;
+
+
+	//Ejercicio 13
+	//Convertir un string a número
+	string textoAnumero = "123";
+	int n2 = stoi(textoAnumero);
+	cout << "String como número: " << n2 << endl;
+
+
+
+}
