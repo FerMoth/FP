@@ -1,0 +1,85 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   //Operaciones artitmeticas
+
+	//Enteros
+	int n1 = 10;
+	int n2 = 20;
+	int n3;
+
+	//Floats
+	float f1 = 1.5;
+	float f2 = 5.2;
+	float f3;
+
+	//1.Adición
+	n3 = n1 + n2; cout << "Resultado suma de enteros: " << n3 << endl;
+	f3 = f1 + f2; cout << "Resultado resta de flotantes: " << f3 << endl;
+
+	//2. Sustración
+	n3 = n1 - n2; cout << "Resultado sustracción de enteros: " << n3 << endl;
+	f3 = f1 - f2; cout << "Resultado sutracción de flotantes: " << f3 << endl;
+
+	//3. Multiplicación 
+	n3 = n1 * n2; cout << "Resultado multipicación de enteros: " << n3 << endl;
+	f3 = f1 * f2; cout << "Resultado multiplicación de flotantes: " << f3 << endl;
+
+	//4. División
+	n3 = n1 / n2; cout << "Resultado de división de enteros: " << n3 << endl;
+	f3 = f1 / f2; cout << "Resultado de división de flotantes: " << f3 << endl;
+
+	//5. Modulo (Residuo de la división)
+	n3 = n2 % n1; cout << "Resultado modulo: " << n3 << endl;
+
+	//6. Operaciones mixtas
+	f3 = n1 + f1; cout << "Resultado de suma mixtas: " << f3 << endl;
+	f3 = n1 - f2; cout << "Resultado de sustracción mixta: " << f3 << endl;
+	f3 = n1 * f2; cout << "Resultado de multiplicación mixta: " << f3 << endl;
+
+
+	//7. Más ejemplos con floats
+	f3 = f1 + 10.3; cout << "Resultado suma de flotantes: " << f3 << endl;
+	f3 = f2 * 2.5; cout << "Resultado de multiplicación de flotantes: " << f3 << endl;
+	f3 = f1 / 2.0; cout << "Resultado de divición de flotantes: " << f3 << endl;
+	f3 = f2 - 3.2; cout << "Resultado de restantes de floats: " << f3 << endl;
+
+	//8. Combinación de números enteros y flotantes
+	f3 = n1 + f1 - n2 / 2.0 + f2 * 1.5; cout << "Resultado combinación der números enteros y flotantes: " << f3 << endl;
+
+	//9. Combinaciones más complejas
+	f3 = (n1 + f1) * (n2 - f2) / (n1 * f2); cout << "Resultados de operación compleja: " << f3 << endl;
+
+	//10. Operaciones aritméticas de tipo mixto
+	double d1 = 7.4; 
+	f3 = n2 + d1; cout << "Resultado suma doble: " << f3 << endl;
+	f3 = n2 - d1; cout << "Resultado sustración doble: " << f3 << endl;
+	f3 = d1 * f2; cout << "Resultado de multiplicación doble: " << f3 << endl;
+	f3 = d1 / f1; cout << "Resultado de división doble: " << f3 << endl;
+
+	//11. números negatrivos
+	int negInt = -25;
+	float negFloat = -12.3;
+
+	n3 = n1 + negInt; cout << "Resultado de suma de enteros positivo + negativo: " << n3 << endl;
+	n3 = n2 + negInt; cout << "Resultado de suma de enteros positivo + negativos: " << n3 << endl;
+	f3 = negFloat - f2; cout << "Resta de floats negativo - positivo: " << f3 << endl;
+	n3 = negInt * n2; cout << "Resultado de multiplicación de negativo * positivo: " << n3 << endl;
+
+	//12. Incremento decremento
+	n1++; cout << "Incremento en 1 a n1: " << n1 << endl;
+	n2--; cout << "decremento de 1 a n2: " << n2 << endl;
+	f1 += 2.5; cout << "Sumar 2.5 a f1: " << f1 << endl;
+	f2 -= 1.2; cout << "Restar 1.2 a f2: " << f2 << endl;
+
+	//13. COMPARACIÓN
+     double res = (1 / 3) * 3;
+	 cout << res << endl;
+
+	 cout << (n1 > n2) << endl;
+	 cout << (n1 < n2) << endl;
+	 cout << ((n1 + 15) > n2) << endl;
+
+}
