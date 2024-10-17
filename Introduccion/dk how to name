@@ -1,0 +1,12 @@
+{
+	int num = 10;
+	if (num % 2 == 0) 
+
+		cout << "par" << endl;
+	
+	else //nunca lleva condición
+
+		cout << "impar" << endl;
+
+
+}
