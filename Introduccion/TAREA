@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// parte 1
+
+	int g = 1;
+	int f = 2;
+	int e = 3;
+	int d = 5;
+	int c = 8;
+	int b = 10;
+
+	int z = e + (d * f) / f - g; cout << "1.1 Resultado: " << z << endl;
+
+	int y = (e + b) / f - g; cout << "1.2 Resultado: " << y << endl;
+
+	int x = (e + d) / f - g; cout << "1.3 Resultado: " << x << endl;
+
+	int m =  c - g; cout << "1.4 Resultado: " << m << endl;
+	
+
+	
+}
