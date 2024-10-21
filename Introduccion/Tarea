@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+//6
+	int num;
+	cout << "Dame un número : ";
+	cin >> num;
+	cout << endl;
+	if (num > 100)
+	{
+		cout << "mayor que 100" << endl;
+	}
+	else
+	{
+		cout << "menor o igual que 100" << endl;
+	}
+
+}
+
+
+
+
+//7
+int nume;
+cout << "Dame un número : ";
+cin >> nume;
+cout << endl;
+if (nume > 0)
+{
+	cout << "Número positivo" << endl;
+}
+else
+{
+	cout << "Número negativo" << endl;
+}
