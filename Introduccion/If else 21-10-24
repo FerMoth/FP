@@ -109,6 +109,28 @@ int main()
 
 
 
+//6
 
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int hortra = 0;
+	cout << "Horas trabajadas : ";
+	cin >> hortra;
+	cout << endl;
+	int horbon = hortra - 40;
+	if (horbon > 0)
+	{
+		horbon = horbon * 75;
+		cout << "Bono : " << horbon;
+	}
+	
+}
 
 
