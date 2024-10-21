@@ -1,0 +1,114 @@
+//2
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n1, n2;
+	cout << "n1 : ";
+	cin >> n1;
+	cout << endl;
+	cout << "n2 : ";
+	cin >> n2;
+	cout << endl;
+	if (n1 > n2)
+	{
+		cout << "n1 : " << n1 << endl;
+	}
+	else //si esta en morado es una palabra reservada
+	{
+		cout << "n2 : " << n2 << endl;
+	}
+
+}
+
+
+
+//3
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int edad;
+	cout << "Dame tu edad : ";
+	cin >> edad;
+	cout << endl;
+	if (edad >= 18)
+	{
+		cout << "mayor de edad" << endl;
+	}
+	else
+	{
+		cout << "menor de edad" << endl;
+	}
+
+}
+
+
+
+
+// 4
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int temp;
+	cout << "Cual es la temperatura? : ";
+	cin >> temp;
+	cout << endl;
+	if (temp < 10)
+	{
+		cout << "hace mucho frio" << endl;
+	}
+	if (temp <= 10)
+	{
+		cout << "Hace frio" << endl;
+	}
+	if (temp > 17)
+	{
+
+		cout << "Esta templado" << endl;
+	}
+	
+}
+
+
+
+//5
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char voto = ' ';
+	cout << "a favor s/n : ";
+	cin >> voto;
+	if (voto == 's' or voto == 'n' or voto == 'S' or voto == 'N')
+	{
+		cout << "Voto valido" << endl;
+
+	}
+	else
+	{
+		cout << "Voto no valido" << endl;
+	}
+	
+}
+
+
+
+
+
+
