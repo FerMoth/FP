@@ -1,0 +1,136 @@
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    //1
+    int n1, n2;
+    cout << "n1 : ";
+    cin >> n1;
+    cout << endl;
+    cout << "n2 : ";
+    cin >> n2;
+    cout << endl;
+    if (n1 > n2)
+    {
+        cout << "n1 : " << n1 << endl;
+    }
+    else
+    {
+        cout << "n2 : " << n2 << endl;
+    }
+
+
+    //2
+    int edad;
+    cout << "Dame tu edad : ";
+    cin >> edad;
+    cout << endl;
+    if (edad >= 18)
+    {
+        cout
+            << "mayor de edad "
+            << endl;
+    }
+    else
+    {
+        cout
+            << "menor de edad " << endl;
+    }
+
+
+    //3
+    int temp;
+    cout << "temperatura : ";
+    cin >> temp;
+    cout << endl;
+    if (temp < 10)
+    {
+        cout
+            << "Hace mucho frio "
+            << endl;
+    }
+    if (temp >= 10 and
+        temp <= 17)
+    {
+        cout << "frio " << endl;
+    }
+    if (temp > 17)
+    {
+        cout << "templado"
+            << endl;
+    }
+
+    //3
+    char voto = ' ';
+    cout << "A favor s/n : ";
+    cin >> voto;
+    cout << endl;
+    if (voto == 's'
+        or voto == 'n' or
+        voto == 'S' or
+        voto == 'N')
+    {
+        cout << "Voto valido "
+            << endl;
+    }
+    else
+    {
+        cout << "Voto invalido "
+            << endl;
+    }
+
+    //5
+    char voto = ' ';
+    cout << "A favor s/n : ";
+    cin >> voto;
+    cout << endl;
+    if (voto == 's'
+        or voto == 'n' or
+        voto == 'S' or
+        voto == 'N')
+    {
+        cout << "Voto valido "
+            << endl;
+    }
+    else
+    {
+        cout << "Voto invalido "
+            << endl;
+    }
+
+    //6
+    int dia;
+    int mes;
+
+    cout << "Ingresa el día de tu cumpleaños: ";
+    cin >> dia;
+    cout << "Ingresa el mes de tu cumpleaños (en numero): ";
+    cin >> mes;
+
+    if (dia == 15 && mes == 9) {
+        cout << "Feliz cumpleaños!!!" << endl;
+    }
+    else {
+        cout << "No es tu cumpleaños :(" << endl;
+    }
+
+    int velocidad;
+    cout << "Ingresa la velocidad: ";
+    cin >> velocidad;
+    if (velocidad < 0) {
+        cout << "Velocidad negativa" << endl;
+    }
+    if (velocidad == 0) {
+        cout << "En resposo" << endl;
+    }
+    if (velocidad > 0) {
+        cout << "Velocidad positiva" << endl;
+    }
+
+    //
+}
+
+
