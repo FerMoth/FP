@@ -1,0 +1,89 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //switch
+    int nuMes = 0;
+    cout << "Num mes : ";
+    cin >> nuMes;
+    switch (nuMes)
+    {
+    case 1:  cout << "ENE" << endl;
+        break;
+
+    case 2: cout << "Feb" << endl;
+
+        break;
+
+    case 3: cout << "Mar" << endl;
+
+        break;
+
+    case 4: cout << "Abr" << endl;
+
+        break;
+
+    case 5: cout << "May" << endl;
+
+        break;
+
+    case 6: cout << "Jun" << endl;
+
+        break;
+
+    case 7: cout << "Jul" << endl;
+
+        break;
+
+    case 8: cout << "Ago" << endl;
+
+        break;
+
+    case 9: cout << "Sep" << endl;
+
+        break;
+
+    case 10: cout << "Oct" << endl;
+
+        break;
+
+    case 11: cout << "Nov" << endl;
+
+        break;
+
+    case 12: cout << "Dic" << endl;
+
+        break;
+
+    case 13: cout << "Mes Invalido" << endl;
+
+        break;
+    }
+
+
+    srand(time(NULL));
+    int castigo = 0, i=0;
+    int vida = 12;
+    int premio = 0;
+    cout << "Vida inicial : " << vida << endl;
+    while (vida > 0) {
+        //deducir uno vida
+        vida--;
+        cout << "Costo de ciclo : " << vida << endl;
+
+        //castigo
+        castigo = rand() % 2;
+        if (castigo == 1) {
+            vida = vida - 3;
+            cout << "Castigo : " << vida << endl;
+        }
+        //Vida
+        vida = rand() % 2;
+        if (vida == 1) {
+            vida = vida + 3;
+            cout << "Premio : " << vida << endl;
+        }
+        cout << "Vida despues de ciclo : " << vida << endl;
+    }
+}
