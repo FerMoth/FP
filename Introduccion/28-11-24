@@ -1,0 +1,63 @@
+
+#include <iostream>
+using namespace std;
+
+
+    void hola()
+    {
+        cout << "Hola mundo";
+    }
+    void suma()
+    {
+        int n1, n2;
+        cout << "no 1: ";
+        cin >> n1;
+        cout << "no 2: ";
+        cin >> n2;
+        cout << n1 + n2 << endl;
+    }
+    int main()
+    {
+        hola();
+
+        suma();
+     
+     
+    }
+
+
+
+
+
+    
+#include <iostream>
+using namespace std;
+
+int n1, n2; //variable golbal
+    void hola()
+    {
+        cout << "Hola mundo";
+    }
+    void damenum()
+    {
+        cout << "Dame el no 1: ";
+        cin >> n1;
+        cout << "Dame el no 2: ";
+        cin >> n2;
+    }
+    void suma(int n1, int n2) //variable local
+    {
+       
+        cout << n1 + n2 << endl;
+    }
+   
+    int main()
+    {
+        hola();
+
+        damenum();
+
+        suma(n1, n2);
+     
+     
+    }
