@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int n1, n2, n3, n4;
+void areacuad()
+{
+   
+  cout << "Introduce el lado del cuadrado: ";
+  cin >> n1;
+  int a1 = n1 * n1;
+  cout << "El area del cuadrado es: " << a1 << endl;
+}
+void arearec()
+{
+    cout << "Introduce el primer lado: ";
+    cin >> n1;
+    cout << "Introduce el segundo lado: ";
+    cin >> n2;
+    int a1 = n1 * n2;
+    cout << "El area del rectangulo es: " << a1 << endl;
+}
+void areacir()
+{
+    cout << "Introduce el radio: ";
+    cin >> n1;
+    int a1 = n1 * n1 * 3.1415;
+    cout << "El area del circulo es: " << a1 << endl;
+  }
+void areatri()
+{
+    cout << "Introduce la base: ";
+    cin >> n1;
+    cout << "Introduce la altura: ";
+    cin >> n2;
+    int a1 = n1 * n2 / 2;
+    cout << "El area del triangulo es de: " << a1 << endl;
+}
+
+    int main()
+    {
+        areacuad();
+        arearec();
+        areacir();
+        areatri();
+    }
+    
