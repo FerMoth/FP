@@ -1,0 +1,36 @@
+
+#include <iostream>
+using namespace std;
+
+
+
+struct Alumno
+{
+	//atributo o propiedades
+	string nombre;
+	int cuenta;
+};
+int main()
+{
+	Alumno Fer;
+	Fer.nombre = "Fer";
+	Fer.cuenta = 20615302;
+
+	Alumno Dam;
+	Dam.nombre = "Dam";
+	Dam.cuenta = 5654220;
+
+	cout << "Nombre: " << Fer.nombre << endl;
+	cout << "Nombre: " << Dam.nombre << endl;
+	cout << endl;
+	cout << "Num de cuenta: " << Fer.cuenta << endl;
+	cout << "Num de cuenta: " << Dam.cuenta << endl;
+	cout << endl;
+
+
+}
+
+
+
+
+
